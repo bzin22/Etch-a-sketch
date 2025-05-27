@@ -23,7 +23,7 @@ function createGrid(num){
 
         // change color on hover
         square.addEventListener("mouseover", () => {
-            square.style.backgroundColor = "teal";
+            square.style.backgroundColor = "gray";
         });
 
         squares.appendChild(square);
